@@ -113,17 +113,7 @@ body {
     border-radius: 5px;
 }
 
- @media (min-width: 600px) {
-    .note-card {
-        width: calc(50% - 10px);
-    }
-}
 
-@media (min-width: 900px) {
-    .note-card {
-        width: calc(33.33% - 10px);
-    }
-} 
 
 .modal {
     display:none;
@@ -224,9 +214,10 @@ body {
     margin-bottom: 20px;
 }
 #pagination{
-    display: flex;
-    justify-content: space-around; 
-    margin: 3rem;
+    /* display: flex;
+    justify-content: space-around;  */
+    margin-bottom: 3rem;
+    margin-top: 3rem;
     
     
     font-size: 20px;
