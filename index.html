@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Not App</title>
+  <link rel="stylesheet" href="try.css">
+  <div class="navbar">
+    <div class="logo">
+      <span>
+        Notes
+      </span>
+    </div>
+ 
+  </div>
+</head>
+
+<body>
+  <div class="container">
+
+
+    <h1>Notes App</h1>
+    <div class="section">
+      <div class="search-form">
+        <input type="text" id="search-title" placeholder="Search by Title">
+      </div>
+      <button type="button" id="add-note">Add</button>
+    </div>
+    <div id="notes-list">
+      <div class="note-card"></div>
+    </div>
+
+  </div>
+
+  <!-- Note Modal -->
+  <div id="note-modal" class="modal">
+    <div class="modal-content">
+      
+      <input type="hidden" id="note-id">
+      <input type="text" id="note-title" placeholder="Note Title" required>
+      <textarea id="note-content" placeholder="Note Content" required></textarea>
+      <button id="save-note">Save Note</button>
+      <button class="close-button">Close</button>
+      
+    </div>
+  </div>
+
+
+<div id="pagination">
+  <button id="prevPage" >Previous</button>
+  <span id="pageInfo"></span>
+  <button id="nextPage">Next</button>
+</div>
+
+
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="try.js"></script>
+</body>
+<!-- paginition title modal responsive script date -->
+</html>
+
+
