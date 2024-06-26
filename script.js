@@ -1,8 +1,7 @@
 let currentPage = 1;
-const notesPerPage = 9;
+const notesPerPage = 10;
  
  
- document.addEventListener('DOMContentLoaded',()=>{
     const addNoteButton=document.getElementById('add-note');
     const noteModal=document.getElementById('note-modal');
     const closeModalButton=document.querySelector('.close-button');
@@ -110,8 +109,7 @@ const notesPerPage = 9;
         const pageInfo = document.getElementById('pageInfo');
         pageInfo.textContent = `Page ${currentPage} of ${totalPages}`;
     
-        // document.getElementById('prevPage').disabled = currentPage === 1;
-        // document.getElementById('nextPage').disabled = currentPage === totalPages;
+       
     }
     
     function changePage(direction) {
@@ -163,4 +161,4 @@ const notesPerPage = 9;
   
 
 
- });
+ 
