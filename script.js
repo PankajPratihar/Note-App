@@ -1,7 +1,7 @@
 
 
 let currentPage = 1;
-const notesPerPage = 10;
+const notesPerPage = 9;
 
 const addNoteButton = document.getElementById('add-note');
 const noteModal = document.getElementById('note-modal');
